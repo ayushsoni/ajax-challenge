@@ -1,9 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
 
 body {
     font-family: 'Ubuntu', 'Helvetica Neue', 'Helvetica', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
+    background: #EEC;
+    color: black;
+    margin-bottom: 3%;
 }
+
+#top-text {
+    background-image: url("../img/background img.jpg");
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+#top-text p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+} 
 
 .product-picture {
     float: left;
@@ -11,3 +27,28 @@ body {
     margin-right: 10px;
 }
 
+#addcomment-button {
+    margin-left: 7%;
+}
+
+#comment-name {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.comment-information {
+    margin-bottom: 11px;
+}
+
+#comment {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#comment-body p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
